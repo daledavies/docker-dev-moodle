@@ -1,0 +1,1 @@
+MySQL will put its data files here, just leave this directpry alone if you want database to persist.
