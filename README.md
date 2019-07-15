@@ -1,7 +1,7 @@
 # Docker LAMP Environment for Moodle Development
 
-Docker development environment with Apache, PHP and MySQL, also sets up xdebug and data directory for Moodle. Exposes web server on port 80 and databse on 3306. Includes Visual Studio Code configurations for xdebug and SQLTools extension. 
+Docker development environment with Apache, PHP and MySQL, also sets up xdebug and data directory for Moodle. Exposes web server on port 80 and databse on 3306. 
 
-Nothing fancy, I just use this for local Moodle development.
+Includes Visual Studio Code configs for xdebug and SQLTools extension. 
 
-To use just build with Docker Compose and put Moodle in the html directry.
+To use build with Docker Compose and put PHP files in the html directry.
