@@ -1,5 +1,5 @@
 html/*
-!data/html/readme.txt
+!html/readme.txt
 data/moodledata/*
 !data/moodledata/readme.txt
 data/mysqldata/*
