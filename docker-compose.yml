@@ -1,0 +1,29 @@
+version: '3'
+services:
+  php:
+    build:
+      context: .
+      dockerfile: .docker/dockerfile
+    image: ubuntuphp
+    ports:
+      - 80:80
+    volumes:
+      - ./html:/var/www/html
+      - ./data/moodledata:/var/moodledata
+    environment:
+      - MYSQL_DATABASE
+      - MYSQL_USER
+      - MYSQL_PASSWORD
+    links:
+      - mysql
+  mysql:
+    image: mysql:5.7
+    ports:
+      - 3306:3306
+    volumes:
+      - ./data/mysqldata:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: rootpassword

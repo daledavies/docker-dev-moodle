@@ -1,0 +1,6 @@
+html/*
+!data/html/readme.txt
+data/moodledata/*
+!data/moodledata/readme.txt
+data/mysqldata/*
+!data/mysqldata/readme.txt

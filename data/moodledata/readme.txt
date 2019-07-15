@@ -1,0 +1,1 @@
+This directory will contain Moodle's moodledata direcory content.

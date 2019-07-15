@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 30,
+            "database": "moodle_db",
+            "dialect": "MySQL",
+            "name": "Docker Moodle",
+            "password": "password",
+            "port": 3306,
+            "server": "127.0.0.1",
+            "username": "moodle_db_usr"
+        }
+    ],
+    "git.ignoreLimitWarning": true
+}
