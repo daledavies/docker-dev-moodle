@@ -3,3 +3,5 @@ html/*
 data/moodledata/*
 !data/moodledata/readme.txt
 data/mysqldata/*
+.vscode/*
+!.vscode/launch.json
