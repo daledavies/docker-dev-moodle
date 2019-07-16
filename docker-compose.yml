@@ -3,7 +3,7 @@ services:
   php:
     build:
       context: .
-      dockerfile: .docker/dockerfile
+      dockerfile: docker/dockerfile
     image: ubuntuphp
     ports:
       - 80:80

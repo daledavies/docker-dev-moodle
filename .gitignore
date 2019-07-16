@@ -3,4 +3,3 @@ html/*
 data/moodledata/*
 !data/moodledata/readme.txt
 data/mysqldata/*
-!data/mysqldata/readme.txt
